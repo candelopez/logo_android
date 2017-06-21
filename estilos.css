@@ -1,0 +1,92 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+div div{
+	background: #A4CA39;
+	position: relative;
+}
+
+.android{
+	height: 404px;width: 334px;
+	border: 2px solid black;
+	margin: 100px auto;
+}
+
+.cabeza{
+	width: 220px;height: 100px;
+	top:32px;
+	border-radius: 110px 110px 0px 0px;
+	border: 2px solid red;
+}
+
+.ojo_izq, .ojo_der{
+	background: #fff;
+	width: 20px; height: 20px;
+	position: absolute;
+	top: 42px;
+	border-radius: 10px;
+}
+
+.ojo_izq{
+	left: 50px;
+}
+
+.ojo_der{
+	right: 50px;
+}
+
+.antena_izq, .antena_der{
+	width: 6px; height: 50px;
+	position: absolute; top:-34px;
+	border-radius: 3px;
+}
+
+.antena_izq{
+	left: 50px;
+	transform: rotate(-30deg);
+}
+
+.antena_der{
+	right: 50px;
+	transform: rotate(30deg);
+}
+
+.cuerpo{
+	width: 220px;height: 184px;
+	top: 40px;
+	border-radius: 0 0 25px 25px;
+	border: 2px solid blue;
+}
+
+.brazo_izq, .brazo_der, .pierna_izq, .pierna_der{
+	width: 50px;
+	position: absolute;
+}
+
+.brazo_izq, .brazo_der{
+	height: 150px;
+	border-radius: 25px;
+}
+
+.pierna_izq, .pierna_der{
+	height: 80px; top: 182px;
+	border-radius: 0 0 25px 25px;
+}
+
+.brazo_izq{
+	left: -58px;
+}
+
+.brazo_der{
+	right: -58px;
+}
+
+.pierna_izq{
+	left: 45px;
+}
+
+.pierna_der{
+	right: 45px;
+}
